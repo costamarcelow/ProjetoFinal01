@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/listView_local"
+        android:layout_width="match_parent"
+        android:layout_height="357dp" />
+
+    <Button
+        android:id="@+id/btnNovoLocal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickNovoLocal"
+        android:text="Novo Local" />
+
+    <Button
+        android:id="@+id/btnEventos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickLocal"
+        android:text="Eventos" />
+</LinearLayout>
